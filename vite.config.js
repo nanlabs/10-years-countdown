@@ -10,6 +10,7 @@ export default defineConfig({
   },
   base: '/final-countdown/',
   plugins: [react()],
+  mode: "development",
   build: {
     minify: false,
   }
