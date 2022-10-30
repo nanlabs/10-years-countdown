@@ -11,5 +11,6 @@ export default defineConfig({
       src: path.resolve(__dirname, './src'),
     },
   },
+  base: '/final-countdown/',
   plugins: [react()],
 });
