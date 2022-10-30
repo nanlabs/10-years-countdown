@@ -16,8 +16,7 @@
     "react-confetti": "^6.1.0",
     "react-dom": "^18.2.0",
     "react-use": "^17.4.0",
-    "styled-components": "^5.3.6",
-    "useWindowSize": "link:react-use/lib/useWindowSize"
+    "styled-components": "^5.3.6"
   },
   "devDependencies": {
     "@types/react": "^18.0.22",

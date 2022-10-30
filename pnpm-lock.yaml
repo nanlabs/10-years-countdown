@@ -15,7 +15,6 @@ specifiers:
   react-is: ^18.2.0
   react-use: ^17.4.0
   styled-components: ^5.3.6
-  useWindowSize: link:react-use/lib/useWindowSize
   vite: ^3.2.0
 
 dependencies:
@@ -26,7 +25,6 @@ dependencies:
   react-dom: 18.2.0_react@18.2.0
   react-use: 17.4.0_biqbaboplfbrettd7655fr4n2y
   styled-components: 5.3.6_7i5myeigehqah43i5u7wbekgba
-  useWindowSize: link:react-use/lib/useWindowSize
 
 devDependencies:
   '@types/react': 18.0.24
