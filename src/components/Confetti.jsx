@@ -1,5 +1,8 @@
 import { useWindowSize } from 'react-use';
-import ReactConfetti from 'react-confetti';
+import RC from 'react-confetti';
+
+// vite issue with rollup https://github.com/vitejs/vite/issues/2139
+const ReactConfetti = RC.default ? RC.default : RC;
 
 function Confetti() {
   const { width, height } = useWindowSize();
