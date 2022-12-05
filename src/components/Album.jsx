@@ -19,10 +19,10 @@ const StyledGrid = styled.div`
 function App() {
   return (
     <StyledGrid>
-      <Card name="Alan" img={AlanImg} targetDate="December 14, 2022 23:59" />
-      <Card name="Chibi" img={ChibiImg} targetDate="December 14, 2022 23:59" />
+      <Card name="Alan" img={AlanImg} targetDate="December 15, 2022 23:59" />
+      <Card name="Chibi" img={ChibiImg} targetDate="December 15, 2022 23:59" />
       <Card name="Mati" img={MatiImg} targetDate="November 11, 2022 23:59" />
-      <Card name="Pompi" img={PompiImg} targetDate="December 14, 2022 23:59" />
+      <Card name="Pompi" img={PompiImg} targetDate="December 15, 2022 23:59" />
       <Card name="Ale" img={AleImg} />
       <Card name="Nahue" img={NahueImg} targetDate="November 11, 2022 23:59" />
       <Card name="Adan" img={AdanImg} />
