@@ -1,11 +1,10 @@
 // Create a new component called Spotify that returns allow me to embed a Spotify playlist
+import * as Spotify from 'react-spotify-embed';
 
-function Spotify() {
+function SpotifyCustomPlayer() {
   return (
-    <div>
-      {/* <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1j6flBxNJC54Jb7AafwuGD?utm_source=generator&theme=0" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe> */}
-    </div>
+    <Spotify.Spotify link="https://open.spotify.com/playlist/1j6flBxNJC54Jb7AafwuGD?si=d65e948c8f904a35" />
   );
 }
 
-export default Spotify;
+export default SpotifyCustomPlayer;

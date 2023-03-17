@@ -3,6 +3,7 @@ import ReactConfetti from 'react-confetti';
 import styled from 'styled-components';
 import Album from './components/Album';
 import MusicPlayer from './components/MusicPlayer';
+import SpotifyCustomPlayer from './components/Spotify';
 import { ConfettiContext } from './context/confetti';
 
 const AppContainer = styled.div`
@@ -27,6 +28,7 @@ function App() {
         { confettiActive && <ReactConfetti /> }
         <Album />
         <MusicPlayer />
+        <SpotifyCustomPlayer />
       </AppContainer>
     </ConfettiContext.Provider>
   );
