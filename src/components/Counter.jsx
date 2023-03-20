@@ -9,14 +9,14 @@ const StyledContainer = styled.div`
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  font-weight: 700;
-  font-size: 1.25rem;
-  line-height: 1.75rem;
+  // font-weight: 700;
+  // font-size: 1.25rem;
+  // line-height: 1.75rem;
   padding: 0.5rem;
-  border: 1px solid #ebebeb;
-  border-radius: 0.25rem;
-  text-decoration: none;
-  color: #000;
+  border-radius: 0.75rem;
+  // background-color: #0a848e;
+  // text-decoration: none;
+  color: white;
 `;
 
 function Countdown({ targetDate, onFinish }) {

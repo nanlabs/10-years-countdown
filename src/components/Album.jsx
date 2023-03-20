@@ -19,7 +19,7 @@ const StyledGrid = styled.div`
 function App() {
   return (
     <StyledGrid>
-      <Card name="Alan" img={AlanImg} targetDate="December 16, 2023 23:59" />
+      <Card name="Alan" img={AlanImg} targetDate="March 20, 2023 17:21" />
       <Card name="Chibi" img={ChibiImg} targetDate="December 16, 2022 23:59" />
       <Card name="Mati" img={MatiImg} targetDate="November 11, 2022 23:59" />
       <Card name="Pompi" img={PompiImg} targetDate="December 16, 2022 23:59" />

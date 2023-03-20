@@ -10,22 +10,17 @@ const StyledContainer = styled.div`
 `;
 
 const StyledImg = styled.img`
-  border: 1px solid #ddd;
-  border-radius: 4px;
   width: 200px;
-  filter: ${(props) => (props.disabled ? 'grayscale(1)' : 'none')};
 `;
 
 function Card({
   img,
-  name,
   targetDate,
 }) {
   const [cardDisabled, setCardDisabled] = useState(false);
   return (
     <StyledContainer>
       <StyledImg disabled={cardDisabled} src={img} alt="card-img" />
-      <h2>{name}</h2>
       {(targetDate && !cardDisabled) && (
       <Countdown targetDate={targetDate} onFinish={() => setCardDisabled(true)} />)}
     </StyledContainer>
