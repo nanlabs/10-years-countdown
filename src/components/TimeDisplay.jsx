@@ -6,7 +6,7 @@ const StyledContainer = styled.div`
   align-items: center;
   display: flex;
   flex-direction: column;
-  color: ${(props) => (props.isDanger ? '#ff0000' : '#000000')};
+  color: ${(props) => (props.isDanger ? '#ff0000' : '#4d4d4d')};
 `;
 
 const StyledValue = styled.p`

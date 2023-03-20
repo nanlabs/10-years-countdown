@@ -11,11 +11,14 @@
     "lint": "eslint --fix --ext .js,.jsx ."
   },
   "dependencies": {
+    "@fireworks-js/react": "^2.10.2",
     "date-fns": "^2.29.3",
+    "fireworks-js": "^2.10.2",
     "react": "^18.2.0",
     "react-audio-player": "^0.17.0",
     "react-confetti": "^6.1.0",
     "react-dom": "^18.2.0",
+    "react-spotify-embed": "^2.0.3",
     "react-use": "^17.4.0",
     "styled-components": "^5.3.6"
   },
