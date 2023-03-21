@@ -28,11 +28,10 @@ const CentralCard = styled.div`
   align-items: center;
   position: relative;
   padding: 2em;
-  background: #ffffff50;
+  background: white;
   border-radius: 10px;
   box-shadow: 0 0 1em rgba(0, 0, 0, 0.2);
   width: 600px;
-  backdrop-filter: blur(10px);
   gap: 30px;
   @media (max-width: 1200px) {
     flex-direction: column;
