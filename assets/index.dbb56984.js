@@ -111,7 +111,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
   background: #ffffff50;
   border-radius: 10px;
   box-shadow: 0 0 1em rgba(0, 0, 0, 0.2);
-  width: 50vw;
+  width: 600px;
   backdrop-filter: blur(10px);
   gap: 30px;
   @media (max-width: 1200px) {
