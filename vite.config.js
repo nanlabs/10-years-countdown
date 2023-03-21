@@ -8,6 +8,6 @@ export default defineConfig({
       src: path.resolve(__dirname, './src'),
     },
   },
-  base: '/final-countdown/',
+  base: '/10-years-countdown/',
   plugins: [react()],
 });
