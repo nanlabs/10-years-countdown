@@ -90,7 +90,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
   width: 300px;
 `,u0=tn.img`
   width: 200px;
-`;function s0({img:e,targetDate:t}){const[n,r]=ve.exports.useState(!1);return Ur(l0,{children:[Ce(u0,{disabled:n,src:e,alt:"card-img"}),t&&!n&&Ce(o0,{targetDate:t,onFinish:()=>r(!0)})]})}const a0="/final-countdown/assets/bg.723f67a2.svg",c0="/final-countdown/assets/anniversary.a675db95.svg",f0=tn.div`
+`;function s0({img:e,targetDate:t}){const[n,r]=ve.exports.useState(!1);return Ur(l0,{children:[Ce(u0,{disabled:n,src:e,alt:"card-img"}),t&&!n&&Ce(o0,{targetDate:t,onFinish:()=>r(!0)})]})}const a0="/10-years-countdown/assets/bg.723f67a2.svg",c0="/10-years-countdown/assets/anniversary.a675db95.svg",f0=tn.div`
   display: flex;
   flex-direction: column;
   align-items: center;
