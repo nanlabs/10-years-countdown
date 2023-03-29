@@ -63,6 +63,7 @@ function App() {
   return (
     <ConfettiContext.Provider value={contextValue}>
       <AppContainer>
+        { confettiActive && <ReactConfetti /> }
         <Fireworks
           options={{
             rocketsPoint: {
@@ -79,7 +80,6 @@ function App() {
           }}
         />
         <CentralCard>
-          { confettiActive && <ReactConfetti /> }
           <Card img={anniversaryImg} targetDate="March 31, 2023 00:00" />
           <SpotifyCustomPlayer />
         </CentralCard>
